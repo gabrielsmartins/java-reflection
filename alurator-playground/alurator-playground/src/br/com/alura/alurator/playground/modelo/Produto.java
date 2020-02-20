@@ -1,9 +1,9 @@
-package br.com.alura.estoque.modelo;
+package br.com.alura.alurator.playground.modelo;
 
-import br.com.alura.alurator.conversor.anotacao.XmlTag;
+import br.com.alura.alurator.playground.anotacao.XmlTag;
 
 @XmlTag("produto")
-public class Produto {
+public class Produto extends SuperProduto{
 	
 	@XmlTag("descricao")
 	private String nome;
